@@ -1,0 +1,59 @@
+h1{
+	color: blue;
+}
+
+h2{
+	font-size: 14px;
+
+}
+
+#contents1{
+	font-size: 12px;
+	color: yellow;
+	background: black;
+	text-indent: 2em;
+	white-space: pre-wrap;
+	line-height:2em;
+
+}
+
+#contents2{
+	text-transform: uppercase;
+	text-decoration: overline underline;
+	text-align:center;
+	word-spacing:5px;
+	font:bold 24px "微软雅黑",sans-serif;
+
+}
+
+#JH{
+	border: red solid 2px;
+}
+
+@font-face{
+	font-family:myFont; 
+	src: url('fonts/Ali.ttf');
+}
+#font{
+	font-family: myFont;
+	font-size: 50px;
+}
+
+#box1{
+	width: 960px;
+	height: 20px;
+	background: red;
+	margin: 0 auto;
+}
+
+#box2{
+	width: 960px;
+	height: 200px;
+	background: blue;
+	display:inline-block;
+	border-radius: 50px;
+}
+
+#box2x{
+	text-align: center;
+}
